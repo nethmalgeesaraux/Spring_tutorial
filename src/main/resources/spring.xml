@@ -10,6 +10,7 @@
 
 
     <bean id="dev" class="com.nethmal.Dev">
-
+    </bean>
+    <bean id="laptop" class="com.nethmal.Laptop">
     </bean>
 </beans>
