@@ -10,7 +10,12 @@
 
 
     <bean id="dev" class="com.nethmal.Dev">
+        <property name="com" ref="destop1"/>
     </bean>
-    <bean id="laptop" class="com.nethmal.Laptop">
+    <bean id="lap1" class="com.nethmal.Laptop">
     </bean>
+    <bean id="destop1" class="com.nethmal.Desktop">
+    </bean>
+
+
 </beans>
